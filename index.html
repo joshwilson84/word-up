@@ -41,21 +41,28 @@
                 </div>
             </div>
 
-            <!-- TODO 1
+            <!-- TODO 1(done)
             Make a "New Game" button
             -->
+            <button class="btn-primary" type="button" id="new-game-button" name="New Game">New Game</button>
+
         </section>
 
         <!-- things that should not show up until the (first) game has started -->
         <section id="game">
 
-            <!-- TODO 4
+            <!-- TODO 4(done)
             Add some instructions so the user knows what to do.
             -->
+            <p>Spell as many words as possible with the provided letters</p>
+            <br>
+            <p>You may use letters more than once</p>
 
-            <!-- TODO 5
+            <!-- TODO 5(done)
             Make an empty container to hold the letter chips.
             -->
+            <div class="" id="allowed-letters">
+            </div>
 
             <!-- the form via which the user attempts to submit new words -->
             <form id="word-attempt-form">
@@ -64,6 +71,7 @@
 
                 <br>
                 <!-- red feedback chips will be injected here -->
+                <div class ="" id = "wrongletter"></div>
             </form>
 
             <!-- a container to display the user's word submissions -->
